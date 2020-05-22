@@ -24,8 +24,6 @@ import java.util.Map;
 @Component
 public class GoogleLogin {
     private static final Logger LOG = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
-    @Value("${google.redirect.uri}")
-    private String redirectUri;
 
     private final GoogleAuthorizationCodeExchange exchange;
     private final UserService userService;
@@ -70,7 +68,7 @@ public class GoogleLogin {
         jwtCookie.setHttpOnly(true);
         jwtCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
         jwtCookie.setPath("/");
-        jwtCookie.setDomain(redirectUri);
+        jwtCookie.setDomain("teamplanner.netlify.app");
 
         final Cookie userNicknameCookie;
         if(user.getNickname()==null){
@@ -80,7 +78,7 @@ public class GoogleLogin {
         }
         userNicknameCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
         userNicknameCookie.setPath("/");
-        userNicknameCookie.setDomain(redirectUri);
+        userNicknameCookie.setDomain("teamplanner.netlify.app");
 
         httpResponse.addCookie(jwtCookie);
         httpResponse.addCookie(userNicknameCookie);
