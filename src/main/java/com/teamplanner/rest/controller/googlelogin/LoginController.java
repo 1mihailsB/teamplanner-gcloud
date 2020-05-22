@@ -67,6 +67,7 @@ public class LoginController {
         userNicknameCookie.setDomain("teamplanner.xyz");
 
         response.addCookie(userNicknameCookie);
+        response.addHeader("Set-Cookie", "SameSite=strict");
         response.addCookie(jwtCookie);
 
         return "LoggedOut";
@@ -102,14 +103,15 @@ public class LoginController {
                 Cookie userNickNameCookie = new Cookie("nickname", nickname);
                 userNickNameCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
                 userNickNameCookie.setPath("/");
-                userNickNameCookie.setDomain("teamplanner.xyz");
+//                userNickNameCookie.setDomain("teamplanner.xyz");
                 response.addCookie(userNickNameCookie);
 
                 Cookie userJwtCookie = WebUtils.getCookie(request, JwtProperties.COOKIE_NAME);
                 userJwtCookie.setSecure(true);
                 userJwtCookie.setPath("/");
                 userJwtCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
-                userJwtCookie.setDomain("teamplanner.xyz");
+//                userJwtCookie.setDomain("teamplanner.xyz");
+                response.addHeader("Set-Cookie", "SameSite=strict");
                 response.addCookie(userJwtCookie);
                 return "Nickname changed";
             }catch(DataIntegrityViolationException e){
