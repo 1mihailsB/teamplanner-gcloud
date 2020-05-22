@@ -59,12 +59,12 @@ public class LoginController {
         jwtCookie.setHttpOnly(true);
         jwtCookie.setMaxAge(0);
         jwtCookie.setPath("/");
-        jwtCookie.setDomain(".teamplanner.xyz");
+        jwtCookie.setDomain("teamplanner.xyz");
 
         final Cookie userNicknameCookie = new Cookie("nickname", null);//user.getNickname());
         userNicknameCookie.setMaxAge(0);
         userNicknameCookie.setPath("/");
-        userNicknameCookie.setDomain(".teamplanner.xyz");
+        userNicknameCookie.setDomain("teamplanner.xyz");
 
         response.addCookie(userNicknameCookie);
         response.addCookie(jwtCookie);
@@ -102,14 +102,14 @@ public class LoginController {
                 Cookie userNickNameCookie = new Cookie("nickname", nickname);
                 userNickNameCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
                 userNickNameCookie.setPath("/");
-                userNickNameCookie.setDomain(".teamplanner.xyz");
+                userNickNameCookie.setDomain("teamplanner.xyz");
                 response.addCookie(userNickNameCookie);
 
                 Cookie userJwtCookie = WebUtils.getCookie(request, JwtProperties.COOKIE_NAME);
                 userJwtCookie.setSecure(true);
                 userJwtCookie.setPath("/");
                 userJwtCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
-                userJwtCookie.setDomain(".teamplanner.xyz");
+                userJwtCookie.setDomain("teamplanner.xyz");
                 response.addCookie(userJwtCookie);
                 return "Nickname changed";
             }catch(DataIntegrityViolationException e){
