@@ -6,6 +6,7 @@ import com.teamplanner.rest.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
@@ -31,6 +32,8 @@ public class LoginController {
 
 	UserService userService;
     GoogleLogin googleLogin;
+    @Value("${google.redirect.uri}")
+    private String redirectUri;
 
     @Autowired
     public LoginController(GoogleLogin googleLogin, UserService userService) {
@@ -58,10 +61,12 @@ public class LoginController {
         jwtCookie.setHttpOnly(true);
         jwtCookie.setMaxAge(0);
         jwtCookie.setPath("/");
+        jwtCookie.setDomain(redirectUri);
 
         final Cookie userNicknameCookie = new Cookie("nickname", null);//user.getNickname());
         userNicknameCookie.setMaxAge(0);
         userNicknameCookie.setPath("/");
+        userNicknameCookie.setDomain(redirectUri);
 
         response.addCookie(userNicknameCookie);
         response.addCookie(jwtCookie);
@@ -99,12 +104,14 @@ public class LoginController {
                 Cookie userNickNameCookie = new Cookie("nickname", nickname);
                 userNickNameCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
                 userNickNameCookie.setPath("/");
+                userNickNameCookie.setDomain(redirectUri);
                 response.addCookie(userNickNameCookie);
 
                 Cookie userJwtCookie = WebUtils.getCookie(request, JwtProperties.COOKIE_NAME);
                 userJwtCookie.setSecure(true);
                 userJwtCookie.setPath("/");
                 userJwtCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
+                userJwtCookie.setDomain(redirectUri);
                 response.addCookie(userJwtCookie);
                 return "Nickname changed";
             }catch(DataIntegrityViolationException e){

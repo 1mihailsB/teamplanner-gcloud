@@ -9,6 +9,7 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -23,6 +24,8 @@ import java.util.Map;
 @Component
 public class GoogleLogin {
     private static final Logger LOG = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+    @Value("${google.redirect.uri}")
+    private String redirectUri;
 
     private final GoogleAuthorizationCodeExchange exchange;
     private final UserService userService;
@@ -67,6 +70,7 @@ public class GoogleLogin {
         jwtCookie.setHttpOnly(true);
         jwtCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
         jwtCookie.setPath("/");
+        jwtCookie.setDomain(redirectUri);
 
         final Cookie userNicknameCookie;
         if(user.getNickname()==null){
@@ -76,6 +80,7 @@ public class GoogleLogin {
         }
         userNicknameCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
         userNicknameCookie.setPath("/");
+        userNicknameCookie.setDomain(redirectUri);
 
         httpResponse.addCookie(jwtCookie);
         httpResponse.addCookie(userNicknameCookie);
