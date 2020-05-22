@@ -82,7 +82,6 @@ public class GoogleLogin {
 
         httpResponse.addCookie(jwtCookie);
         httpResponse.addCookie(userNicknameCookie);
-        httpResponse.addHeader("Set-Cookie", "SameSite=strict");
 
         ResponseEntity response = new ResponseEntity(HttpStatus.OK);
         
