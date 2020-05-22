@@ -1,4 +1,4 @@
-use website_rest;
+use teamplanner;
 
 SET FOREIGN_KEY_CHECKS = 0;
 

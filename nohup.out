@@ -1,0 +1,361 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.teamplanner:rest:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.auth0:java-jwt:jar -> duplicate declaration of version 3.10.0 @ line 74, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mcom.teamplanner:rest[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding rest 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mrest[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mrest[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1208145384
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-05-20 20:55:35.723  INFO 2152 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Starting RestApplication on teamplanner-vm with PID 2152 (/home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM/target/classes started by g1mihails_b in /home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM)
+2020-05-20 20:55:35.726 DEBUG 2152 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-05-20 20:55:35.727  INFO 2152 --- [  restartedMain] com.teamplanner.rest.RestApplication     : No active profile set, falling back to default profiles: default
+2020-05-20 20:55:35.790  INFO 2152 --- [  restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-20 20:55:35.790  INFO 2152 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-20 20:55:35.791  INFO 2152 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-20 20:55:36.839  INFO 2152 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-20 20:55:36.945  INFO 2152 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 4 JPA repository interfaces.
+2020-05-20 20:55:37.434  INFO 2152 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 20:55:37.782  INFO 2152 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 20:55:37.792  INFO 2152 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 20:55:37.792  INFO 2152 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-05-20 20:55:37.947  INFO 2152 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 20:55:37.951  INFO 2152 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2160 ms
+2020-05-20 20:55:38.146  INFO 2152 --- [  restartedMain] o.s.c.g.a.s.GcpCloudSqlAutoConfiguration : Default MYSQL JdbcUrl provider. Connecting to jdbc:mysql://google/teamplanner?socketFactory=com.google.cloud.sql.mysql.SocketFactory&cloudSqlInstance=teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql with driver com.mysql.jdbc.Driver
+2020-05-20 20:55:38.159  WARN 2152 --- [  restartedMain] o.s.c.g.a.s.GcpCloudSqlAutoConfiguration : spring.datasource.driver-class-name is specified. Not using generated Cloud SQL configuration
+2020-05-20 20:55:38.313  INFO 2152 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-20 20:55:38.364  INFO 2152 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-05-20 20:55:38.446  INFO 2152 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-20 20:55:38.521  INFO 2152 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-20 20:55:38.582  INFO 2152 --- [  restartedMain] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:38.582  INFO 2152 --- [  restartedMain] c.g.cloud.sql.core.CoreSocketFactory     : First Cloud SQL connection, generating RSA key pair.
+2020-05-20 20:55:40.200  INFO 2152 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-20 20:55:40.214  INFO 2152 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-20 20:55:40.306  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:40.398  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:40.479  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:40.563  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:40.637  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:40.717  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:40.794  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:40.868  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:40.944  INFO 2152 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 20:55:41.564  INFO 2152 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-20 20:55:41.570  INFO 2152 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils (file:/home/g1mihails_b/.m2/repository/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-05-20 20:55:42.330  INFO 2152 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-05-20 20:55:42.335  INFO 2152 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-05-20 20:55:42.579  WARN 2152 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-20 20:55:42.748  INFO 2152 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ee1b527, org.springframework.security.web.context.SecurityContextPersistenceFilter@627e1d1b, org.springframework.security.web.header.HeaderWriterFilter@2d9a2976, org.springframework.web.filter.CorsFilter@4ef3739b, org.springframework.security.web.authentication.logout.LogoutFilter@62d3d67e, com.teamplanner.rest.security.JwtAuthorizationFilter@333050c4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b9edd0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@562ab3a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23c97997, org.springframework.security.web.session.SessionManagementFilter@7dd7b175, org.springframework.security.web.access.ExceptionTranslationFilter@25f9d7e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fab329a]
+2020-05-20 20:55:42.767  INFO 2152 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-05-20 20:55:42.805  INFO 2152 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2020-05-20 20:55:43.220  INFO 2152 --- [  restartedMain] o.s.c.g.core.DefaultCredentialsProvider  : Default credentials provider for Google Compute Engine.
+2020-05-20 20:55:43.222  INFO 2152 --- [  restartedMain] o.s.c.g.core.DefaultCredentialsProvider  : Scopes in use by default credentials: [https://www.googleapis.com/auth/pubsub, https://www.googleapis.com/auth/spanner.admin, https://www.googleapis.com/auth/spanner.data, https://www.googleapis.com/auth/datastore, https://www.googleapis.com/auth/sqlservice.admin, https://www.googleapis.com/auth/devstorage.read_only, https://www.googleapis.com/auth/devstorage.read_write, https://www.googleapis.com/auth/cloudruntimeconfig, https://www.googleapis.com/auth/trace.append, https://www.googleapis.com/auth/cloud-platform, https://www.googleapis.com/auth/cloud-vision, https://www.googleapis.com/auth/bigquery]
+2020-05-20 20:55:43.232  INFO 2152 --- [  restartedMain] o.s.c.g.a.c.GcpContextAutoConfiguration  : The default project ID is teamplanner-springboot-rest
+2020-05-20 20:55:43.349  INFO 2152 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-20 20:55:43.370  INFO 2152 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2020-05-20 20:55:43.371  INFO 2152 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-05-20 20:55:43.373  INFO 2152 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2020-05-20 20:55:43.402  INFO 2152 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 20:55:43.405  INFO 2152 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Started RestApplication in 8.208 seconds (JVM running for 8.856)
+2020-05-20 20:56:08.229  INFO 2152 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-20 20:56:08.229  INFO 2152 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-20 20:56:08.235  INFO 2152 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-05-20 20:56:42.801  INFO 2152 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  09:32 min
+[[1;34mINFO[m] Finished at: 2020-05-20T21:05:01Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[m on project [36mrest[m: [1;31mApplication finished with exit code: 137[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.teamplanner:rest:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.auth0:java-jwt:jar -> duplicate declaration of version 3.10.0 @ line 74, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mcom.teamplanner:rest[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding rest 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mrest[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mrest[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1281700236
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-05-20 21:05:44.533  INFO 2559 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Starting RestApplication on teamplanner-vm with PID 2559 (/home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM/target/classes started by g1mihails_b in /home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM)
+2020-05-20 21:05:44.535 DEBUG 2559 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-05-20 21:05:44.536  INFO 2559 --- [  restartedMain] com.teamplanner.rest.RestApplication     : No active profile set, falling back to default profiles: default
+2020-05-20 21:05:44.604  INFO 2559 --- [  restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-20 21:05:44.605  INFO 2559 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-20 21:05:44.605  INFO 2559 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-20 21:05:45.718  INFO 2559 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-20 21:05:45.826  INFO 2559 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 4 JPA repository interfaces.
+2020-05-20 21:05:46.328  INFO 2559 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 21:05:46.699  INFO 2559 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 21:05:46.710  INFO 2559 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 21:05:46.711  INFO 2559 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-05-20 21:05:46.866  INFO 2559 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 21:05:46.867  INFO 2559 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2262 ms
+2020-05-20 21:05:47.065  INFO 2559 --- [  restartedMain] o.s.c.g.a.s.GcpCloudSqlAutoConfiguration : Default MYSQL JdbcUrl provider. Connecting to jdbc:mysql://google/teamplanner?socketFactory=com.google.cloud.sql.mysql.SocketFactory&cloudSqlInstance=teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql with driver com.mysql.jdbc.Driver
+2020-05-20 21:05:47.079  WARN 2559 --- [  restartedMain] o.s.c.g.a.s.GcpCloudSqlAutoConfiguration : spring.datasource.driver-class-name is specified. Not using generated Cloud SQL configuration
+2020-05-20 21:05:47.237  INFO 2559 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-20 21:05:47.289  INFO 2559 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-05-20 21:05:47.375  INFO 2559 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-20 21:05:47.456  INFO 2559 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-20 21:05:47.522  INFO 2559 --- [  restartedMain] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:47.523  INFO 2559 --- [  restartedMain] c.g.cloud.sql.core.CoreSocketFactory     : First Cloud SQL connection, generating RSA key pair.
+2020-05-20 21:05:50.482  INFO 2559 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-20 21:05:50.495  INFO 2559 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-20 21:05:50.593  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:50.673  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:50.751  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:50.836  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:50.924  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:50.998  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:51.070  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:51.147  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:51.224  INFO 2559 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:05:51.807  INFO 2559 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-20 21:05:51.814  INFO 2559 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils (file:/home/g1mihails_b/.m2/repository/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-05-20 21:05:52.580  INFO 2559 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-05-20 21:05:52.585  INFO 2559 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-05-20 21:05:52.829  WARN 2559 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-20 21:05:52.980  INFO 2559 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31f33319, org.springframework.security.web.context.SecurityContextPersistenceFilter@69af6b0f, org.springframework.security.web.header.HeaderWriterFilter@53d48bda, org.springframework.web.filter.CorsFilter@79435dcb, org.springframework.security.web.authentication.logout.LogoutFilter@46ec5790, com.teamplanner.rest.security.JwtAuthorizationFilter@790c73a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@510cf51b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b54281a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a969b03, org.springframework.security.web.session.SessionManagementFilter@687c56d5, org.springframework.security.web.access.ExceptionTranslationFilter@d5ce2b9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f1847ef]
+2020-05-20 21:05:53.000  INFO 2559 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-05-20 21:05:53.038  INFO 2559 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2020-05-20 21:05:53.435  INFO 2559 --- [  restartedMain] o.s.c.g.core.DefaultCredentialsProvider  : Default credentials provider for Google Compute Engine.
+2020-05-20 21:05:53.436  INFO 2559 --- [  restartedMain] o.s.c.g.core.DefaultCredentialsProvider  : Scopes in use by default credentials: [https://www.googleapis.com/auth/pubsub, https://www.googleapis.com/auth/spanner.admin, https://www.googleapis.com/auth/spanner.data, https://www.googleapis.com/auth/datastore, https://www.googleapis.com/auth/sqlservice.admin, https://www.googleapis.com/auth/devstorage.read_only, https://www.googleapis.com/auth/devstorage.read_write, https://www.googleapis.com/auth/cloudruntimeconfig, https://www.googleapis.com/auth/trace.append, https://www.googleapis.com/auth/cloud-platform, https://www.googleapis.com/auth/cloud-vision, https://www.googleapis.com/auth/bigquery]
+2020-05-20 21:05:53.446  INFO 2559 --- [  restartedMain] o.s.c.g.a.c.GcpContextAutoConfiguration  : The default project ID is teamplanner-springboot-rest
+2020-05-20 21:05:53.562  INFO 2559 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-20 21:05:53.582  INFO 2559 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2020-05-20 21:05:53.583  INFO 2559 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-05-20 21:05:53.585  INFO 2559 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2020-05-20 21:05:53.614  INFO 2559 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 21:05:53.618  INFO 2559 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Started RestApplication in 9.623 seconds (JVM running for 10.316)
+2020-05-20 21:05:54.175  INFO 2559 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-20 21:05:54.175  INFO 2559 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-20 21:05:54.182  INFO 2559 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-05-20 21:06:53.031  INFO 2559 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  05:43 min
+[[1;34mINFO[m] Finished at: 2020-05-20T21:11:20Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[m on project [36mrest[m: [1;31mApplication finished with exit code: 137[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mcom.teamplanner:rest[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding rest 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mrest[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mrest[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[m @ [36mrest[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@698728065
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-05-20 21:11:56.873  INFO 2717 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Starting RestApplication on teamplanner-vm with PID 2717 (/home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM/target/classes started by g1mihails_b in /home/g1mihails_b/teamplanner/teamplanner-vm/teamplanner-VM)
+2020-05-20 21:11:56.876 DEBUG 2717 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-05-20 21:11:56.876  INFO 2717 --- [  restartedMain] com.teamplanner.rest.RestApplication     : No active profile set, falling back to default profiles: default
+2020-05-20 21:11:56.947  INFO 2717 --- [  restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/g1mihails_b/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-20 21:11:56.948  INFO 2717 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-20 21:11:56.948  INFO 2717 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-20 21:11:58.089  INFO 2717 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-20 21:11:58.206  INFO 2717 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 4 JPA repository interfaces.
+2020-05-20 21:11:58.724  INFO 2717 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-20 21:11:59.099  INFO 2717 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-20 21:11:59.110  INFO 2717 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-20 21:11:59.111  INFO 2717 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-05-20 21:11:59.270  INFO 2717 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-20 21:11:59.272  INFO 2717 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2324 ms
+2020-05-20 21:11:59.481  INFO 2717 --- [  restartedMain] o.s.c.g.a.s.GcpCloudSqlAutoConfiguration : Default MYSQL JdbcUrl provider. Connecting to jdbc:mysql://google/teamplanner?socketFactory=com.google.cloud.sql.mysql.SocketFactory&cloudSqlInstance=teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql with driver com.mysql.jdbc.Driver
+2020-05-20 21:11:59.495  WARN 2717 --- [  restartedMain] o.s.c.g.a.s.GcpCloudSqlAutoConfiguration : spring.datasource.driver-class-name is specified. Not using generated Cloud SQL configuration
+2020-05-20 21:11:59.664  INFO 2717 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-20 21:11:59.719  INFO 2717 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-05-20 21:11:59.808  INFO 2717 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-20 21:11:59.891  INFO 2717 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-20 21:11:59.952  INFO 2717 --- [  restartedMain] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:11:59.952  INFO 2717 --- [  restartedMain] c.g.cloud.sql.core.CoreSocketFactory     : First Cloud SQL connection, generating RSA key pair.
+2020-05-20 21:12:01.665  INFO 2717 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-20 21:12:01.680  INFO 2717 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-20 21:12:01.775  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:01.878  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:01.964  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:02.051  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:02.125  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:02.200  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:02.284  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:02.359  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:02.429  INFO 2717 --- [onnection adder] c.g.cloud.sql.core.CoreSocketFactory     : Connecting to Cloud SQL instance [teamplanner-springboot-rest:europe-west3:teamplanner-springboot-rest-mysql] via SSL socket.
+2020-05-20 21:12:03.087  INFO 2717 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-20 21:12:03.095  INFO 2717 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils (file:/home/g1mihails_b/.m2/repository/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-05-20 21:12:03.924  INFO 2717 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-05-20 21:12:03.930  INFO 2717 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-05-20 21:12:04.191  WARN 2717 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-20 21:12:04.357  INFO 2717 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e0217a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@66675a14, org.springframework.security.web.header.HeaderWriterFilter@4410d658, org.springframework.web.filter.CorsFilter@27c448de, org.springframework.security.web.authentication.logout.LogoutFilter@69c25a79, com.teamplanner.rest.security.JwtAuthorizationFilter@5dba3f38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ac8b9bd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fbdbdbc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4831c595, org.springframework.security.web.session.SessionManagementFilter@70829825, org.springframework.security.web.access.ExceptionTranslationFilter@7078bb8f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d0c097d]
+2020-05-20 21:12:04.377  INFO 2717 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-05-20 21:12:04.414  INFO 2717 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2020-05-20 21:12:04.819  INFO 2717 --- [  restartedMain] o.s.c.g.core.DefaultCredentialsProvider  : Default credentials provider for Google Compute Engine.
+2020-05-20 21:12:04.819  INFO 2717 --- [  restartedMain] o.s.c.g.core.DefaultCredentialsProvider  : Scopes in use by default credentials: [https://www.googleapis.com/auth/pubsub, https://www.googleapis.com/auth/spanner.admin, https://www.googleapis.com/auth/spanner.data, https://www.googleapis.com/auth/datastore, https://www.googleapis.com/auth/sqlservice.admin, https://www.googleapis.com/auth/devstorage.read_only, https://www.googleapis.com/auth/devstorage.read_write, https://www.googleapis.com/auth/cloudruntimeconfig, https://www.googleapis.com/auth/trace.append, https://www.googleapis.com/auth/cloud-platform, https://www.googleapis.com/auth/cloud-vision, https://www.googleapis.com/auth/bigquery]
+2020-05-20 21:12:04.829  INFO 2717 --- [  restartedMain] o.s.c.g.a.c.GcpContextAutoConfiguration  : The default project ID is teamplanner-springboot-rest
+2020-05-20 21:12:04.952  INFO 2717 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-20 21:12:04.972  INFO 2717 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2020-05-20 21:12:04.973  INFO 2717 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-05-20 21:12:04.975  INFO 2717 --- [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2020-05-20 21:12:05.005  INFO 2717 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-20 21:12:05.009  INFO 2717 --- [  restartedMain] com.teamplanner.rest.RestApplication     : Started RestApplication in 8.704 seconds (JVM running for 9.496)
+2020-05-20 21:12:08.589  INFO 2717 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-20 21:12:08.589  INFO 2717 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-20 21:12:08.596  INFO 2717 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-05-20 21:13:04.407  INFO 2717 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13:13 min
+[[1;34mINFO[m] Finished at: 2020-05-20T21:25:03Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run[m [1m(default-cli)[m on project [36mrest[m: [1;31mApplication finished with exit code: 137[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
