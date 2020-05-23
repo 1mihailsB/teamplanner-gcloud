@@ -10,6 +10,6 @@ public class FrontendController {
     @GetMapping("/")
     public String index(){
          System.out.println("inside frontend controller");
-         return "/resources/index";
+         return "/resources/index.html";
     }
 }
