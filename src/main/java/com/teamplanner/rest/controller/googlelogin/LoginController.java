@@ -59,12 +59,10 @@ public class LoginController {
         jwtCookie.setHttpOnly(true);
         jwtCookie.setMaxAge(0);
         jwtCookie.setPath("/");
-        jwtCookie.setDomain("teamplanner.xyz");
 
         final Cookie userNicknameCookie = new Cookie("nickname", null);//user.getNickname());
         userNicknameCookie.setMaxAge(0);
         userNicknameCookie.setPath("/");
-        userNicknameCookie.setDomain("teamplanner.xyz");
 
         response.addCookie(jwtCookie);
 

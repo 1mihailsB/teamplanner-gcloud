@@ -68,7 +68,6 @@ public class GoogleLogin {
         jwtCookie.setHttpOnly(true);
         jwtCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
         jwtCookie.setPath("/");
-//        jwtCookie.setDomain("teamplanner.xyz");
 
         final Cookie userNicknameCookie;
         if(user.getNickname()==null){
@@ -78,7 +77,6 @@ public class GoogleLogin {
         }
         userNicknameCookie.setMaxAge(JwtProperties.EXPIRATION_TIME_MILLISECONDS/1000);
         userNicknameCookie.setPath("/");
-//        userNicknameCookie.setDomain("teamplanner.xyz");
 
         httpResponse.addCookie(jwtCookie);
         httpResponse.addCookie(userNicknameCookie);
