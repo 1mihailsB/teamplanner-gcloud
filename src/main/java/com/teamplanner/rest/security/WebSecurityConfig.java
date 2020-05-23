@@ -51,7 +51,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/oauth/chooseNickname").authenticated()
                 .antMatchers(HttpMethod.POST, "/oauth/**").permitAll()
                 .antMatchers("/porttest/**").permitAll()
-                .antMatchers("/index.html").permitAll()
+                .antMatchers("/*","/static/**").permitAll()
                 .anyRequest().authenticated();
     }
 
@@ -79,13 +79,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", configuration);
         return source;
-    }
-
-    @Override
-    public void configure(WebSecurity webSecurity) throws Exception {
-        webSecurity
-                .ignoring()
-                .antMatchers("/index.html");
     }
 
 }
