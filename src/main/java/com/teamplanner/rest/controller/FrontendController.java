@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class FrontendController {
 
-    @GetMapping("/")
+    @GetMapping("/index")
     public String index(){
          System.out.println("inside frontend controller");
          return "index";
