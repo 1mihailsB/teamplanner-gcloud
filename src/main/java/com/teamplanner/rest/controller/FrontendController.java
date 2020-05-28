@@ -12,10 +12,16 @@ import java.io.IOException;
 @Controller
 public class FrontendController {
 
-    @GetMapping({"/", "/games", "/friends", "/chooseNickname"})
-    public void frontendRoutes(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    @GetMapping({"/", "/games","/game/*", "/editPlan/*", "/friends", "/chooseNickname", "/addFriend", "/createPlan"})
+    public String noroute(){
 
-        request.getRequestDispatcher("index.html").forward(request, response);
+        return ("forward:/index.html");
+    }
+
+    @GetMapping("/unauthorized")
+    public String unauthorized() {
+
+        return ("redirect:/index.html");
     }
 
 }
